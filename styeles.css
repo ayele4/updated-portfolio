@@ -2,11 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
-/* HEADER STYELS */
 
+/* HEADER STYELS */
 #header {
     padding: 15px;
     background-color: gray;
@@ -63,7 +62,7 @@ body{
 
 .profcard img {
     height: 250px;
-    border-radius: 4px;
+    border-radius: 200px;
     box-shadow: 2px 2px 8px rgb(46,46,46);
 }
 
@@ -80,13 +79,17 @@ body{
     justify-content: flex-start;
 }
 
+.social-media-link {
+    padding-right: 10%;
+}
+
 .socialLinks a {
-    color: rgb(88,180,255);
+    color: rgb(88, 174, 255);
     transition: color 200ms;
 }
 
 .socialLinks a :hover {
-    color: rebeccapurple;
+    color: rgb(73, 51, 153);
 }
 
 .socialLinks a :active {
@@ -100,26 +103,60 @@ body{
     padding: 100px;
 }
 
+.project-grid {
+    display: grid;
+    grid-template-columns:repeat(5, 150px);
+    grid-template-rows: repeat(5, 150px);
+}
+
 .project-1 {
     background-image: url(./assets/img/nutritional-value-screenshot.png);
     background-size: cover;
-    margin: auto;
-    margin-bottom: 40px;
+    /* margin: auto; */
+    /* margin-bottom: 40px; */
     border: 1px solid black;
-    width: 300px;
-    height: 250px
+    grid-row: 1/3;
+    grid-column: 1/3;
+    /* width: 300px;
+    height: 250px */
 }
 
 .project-2 {
     background-image: url(./assets/img/horiseon-screenshot.png);
     background-size: cover;
-    margin: auto;
-    margin-bottom: 40px;
+    grid-row: 1/3;
+    grid-column: 4/6;
+    /* margin: auto; */
+    /* margin-bottom: 40px; */
     border: 1px solid black;
-    width: 300px;
-    height: 250px
+    /* width: 300px; */
+    /* height: 250px */
 }
 
+.project-3 {
+    background-image: url(./assets/img/day-planner-Screen\ Shot.png);
+    background-size: cover;
+    /* margin: auto; */
+    grid-column: 1/3;
+    grid-row: 4/6;
+    /* margin-bottom: 40px; */
+    border: 1px solid black;
+    /* width: 300px; */
+    /* height: 250px; */
+}
+
+/* 
+.project-4 {
+    background-image: url(./assets/img/day-planner-Screen\ Shot.png);
+    background-size: cover; */
+    /* margin: auto; */
+    /* grid-column: 4/6; */
+    /* grid-row: 4/6; */
+    /* margin-bottom: 40px; */
+    /* border: 1px solid black; */
+    /* width: 300px; */
+    /* height: 250px; */
+/* } */
 #projects h1 {
     margin-bottom: 50px;
     border-bottom: 2px solid black;
@@ -179,6 +216,24 @@ body{
     outline: none;
 }
 
+.contact-list li {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.contact-list {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 0px solid white;
+    transition: border 150ms, padding 150ms;
+}
+
 button {
     width: fit-content;
     padding: 10px 20px;
@@ -223,6 +278,7 @@ button:active {
     }
     .projects {
         padding: 20px;
+        flex-direction: row;
     }
     .proj {
         width: 100px;

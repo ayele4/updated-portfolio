@@ -11,6 +11,6 @@ For each project I have included a link to view the projects.
 <img width="958" alt="Screen Shot 2021-08-30 at 10 28 48 PM" src="https://user-images.githubusercontent.com/84227686/131447324-5f4b52d3-9ff1-4703-ba04-9db3c9024e73.png">
 
 # Deployedpagehttps
-://ayele4.github.io/updated-portfolio/
 
+ https://ayele4.github.io/updated-portfolio/
 

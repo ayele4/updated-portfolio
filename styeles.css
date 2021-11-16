@@ -145,18 +145,18 @@ body{
     /* height: 250px; */
 }
 
-/* 
+
 .project-4 {
-    background-image: url(./assets/img/day-planner-Screen\ Shot.png);
-    background-size: cover; */
-    /* margin: auto; */
-    /* grid-column: 4/6; */
-    /* grid-row: 4/6; */
-    /* margin-bottom: 40px; */
-    /* border: 1px solid black; */
-    /* width: 300px; */
-    /* height: 250px; */
-/* } */
+    background-image: url(./assets/img/project-2.png);
+    background-size: cover; 
+     margin: auto; 
+    grid-column: 4/6; 
+     grid-row: 4/6; 
+    margin-bottom: 40px; 
+     border: 1px solid black;
+     width: 300px; 
+    height: 250px; 
+ } 
 #projects h1 {
     margin-bottom: 50px;
     border-bottom: 2px solid black;
